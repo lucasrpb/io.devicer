@@ -1,0 +1,31 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\io-devicer_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTOutboundMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTOutboundMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundServer$$typecreator2$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundServer$$typecreator2$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundServer$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundServer$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundServer$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundServer$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTOutboundServer$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTOutboundServer$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundServer$$typecreator1$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundServer$$typecreator1$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundMain$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTOutboundServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTOutboundServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTInboundServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTInboundServer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTOutboundServer$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTOutboundServer$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	io\devicer\MQTTOutboundMain.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\lucas\IdeaProjects\io.devicer\target\scala-2.12\classes\io\devicer\MQTTOutboundMain.class[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

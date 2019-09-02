@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="io-devicer_2.12"
+		revision="0.1"
+		conf="compile"
+		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190902150414"/>
+	<dependencies>
+		<module organisation="io.netty" name="netty-all">
+			<revision name="4.1.35.Final" status="release" pubdate="20190417072736" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="86">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="21560" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-all\ivy-4.1.35.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.35.Final/netty-all-4.1.35.Final.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="4.1.35.Final" rev-constraint-default="4.1.35.Final" rev-constraint-dynamic="4.1.35.Final" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="netty-all" type="jar" ext="jar" status="no" details="" size="3959810" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-all\jars\netty-all-4.1.35.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-all/4.1.35.Final/netty-all-4.1.35.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234409" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="55">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="8728" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-http_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-http_2.12/19.5.1/finagle-http_2.12-19.5.1.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="finagle-http_2.12" type="jar" ext="jar" status="no" details="" size="280094" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-http_2.12\jars\finagle-http_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-http_2.12/19.5.1/finagle-http_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-http2_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234343" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="84">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12840" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-http2_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-http2_2.12/19.5.1/finagle-http2_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-http2_2.12" type="jar" ext="jar" status="no" details="" size="361049" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-http2_2.12\jars\finagle-http2_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-http2_2.12/19.5.1/finagle-http2_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-tcnative-boringssl-static">
+			<revision name="2.0.19.Final" status="release" pubdate="20181023160835" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="85">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17759" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-tcnative-boringssl-static\ivy-2.0.19.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.19.Final/netty-tcnative-boringssl-static-2.0.19.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="2.0.19.Final" rev-constraint-default="2.0.19.Final" rev-constraint-dynamic="2.0.19.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="2.0.19.Final" rev-constraint-default="2.0.19.Final" rev-constraint-dynamic="2.0.19.Final" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="netty-tcnative-boringssl-static" type="jar" ext="jar" status="no" details="" size="3015976" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-tcnative-boringssl-static\jars\netty-tcnative-boringssl-static-2.0.19.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-tcnative-boringssl-static/2.0.19.Final/netty-tcnative-boringssl-static-2.0.19.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-netty4-http_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234229" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="82">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="10036" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-netty4-http_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.12/19.5.1/finagle-netty4-http_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-netty4-http_2.12" type="jar" ext="jar" status="no" details="" size="85343" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-netty4-http_2.12\jars\finagle-netty4-http_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4-http_2.12/19.5.1/finagle-netty4-http_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-netty4_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="83">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="12744" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-netty4_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4_2.12/19.5.1/finagle-netty4_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-netty4_2.12" type="jar" ext="jar" status="no" details="" size="357231" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-netty4_2.12\jars\finagle-netty4_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-netty4_2.12/19.5.1/finagle-netty4_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-base-http_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234208" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="56">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9495" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-base-http_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-base-http_2.12/19.5.1/finagle-base-http_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-base-http_2.12" type="jar" ext="jar" status="no" details="" size="479715" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-base-http_2.12\jars\finagle-base-http_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-base-http_2.12/19.5.1/finagle-base-http_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-core_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234227" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="57">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18489" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-core_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/19.5.1/finagle-core_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="finagle-core_2.12" type="jar" ext="jar" status="no" details="" size="2807616" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-core_2.12\jars\finagle-core_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-core_2.12/19.5.1/finagle-core_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-epoll">
+			<revision name="4.1.31.Final" status="release" pubdate="20181029134213" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="80">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18914" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport-native-epoll\ivy-4.1.31.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.31.Final/netty-transport-native-epoll-4.1.31.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="netty-transport-native-epoll" type="jar" ext="jar" extra-classifier="linux-x86_64" status="no" details="" size="141019" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport-native-epoll\jars\netty-transport-native-epoll-4.1.31.Final-linux-x86_64.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.31.Final/netty-transport-native-epoll-4.1.31.Final-linux-x86_64.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport-native-unix-common">
+			<revision name="4.1.31.Final" status="release" pubdate="20181029141746" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="81">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18145" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport-native-unix-common\ivy-4.1.31.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.31.Final/netty-transport-native-unix-common-4.1.31.Final.pom"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="netty-transport-native-unix-common" type="jar" ext="jar" status="no" details="" size="33471" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport-native-unix-common\jars\netty-transport-native-unix-common-4.1.31.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.31.Final/netty-transport-native-unix-common-4.1.31.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hdrhistogram" name="HdrHistogram">
+			<revision name="2.1.11" status="release" pubdate="20190117140715" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://hdrhistogram.github.io/HdrHistogram/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="79">
+				<license name="Public Domain, per Creative Commons CC0" url="http://creativecommons.org/publicdomain/zero/1.0/"/>
+				<license name="BSD-2-Clause" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="4115" time="0" location="C:\Users\lucas\.ivy2\cache\org.hdrhistogram\HdrHistogram\ivy-2.1.11.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="2.1.11" rev-constraint-default="2.1.11" rev-constraint-dynamic="2.1.11" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="HdrHistogram" type="bundle" ext="jar" status="no" details="" size="123328" time="0" location="C:\Users\lucas\.ivy2\cache\org.hdrhistogram\HdrHistogram\bundles\HdrHistogram-2.1.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hdrhistogram/HdrHistogram/2.1.11/HdrHistogram-2.1.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-tunable_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225639" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="78">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4128" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-tunable_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/19.5.1/util-tunable_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-tunable_2.12" type="jar" ext="jar" status="no" details="" size="74628" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-tunable_2.12\jars\util-tunable_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-tunable_2.12/19.5.1/util-tunable_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-security_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225724" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="77">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3523" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-security_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-security_2.12/19.5.1/util-security_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-security_2.12" type="jar" ext="jar" status="no" details="" size="51046" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-security_2.12\jars\util-security_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-security_2.12/19.5.1/util-security_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-jvm_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225635" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="76">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3774" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-jvm_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/19.5.1/util-jvm_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-jvm_2.12" type="jar" ext="jar" status="no" details="" size="131833" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-jvm_2.12\jars\util-jvm_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-jvm_2.12/19.5.1/util-jvm_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-hashing_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225422" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="75">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3475" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-hashing_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/19.5.1/util-hashing_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-hashing_2.12" type="jar" ext="jar" status="no" details="" size="50819" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-hashing_2.12\jars\util-hashing_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-hashing_2.12/19.5.1/util-hashing_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-codec_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225434" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="74">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3365" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-codec_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/19.5.1/util-codec_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-codec_2.12" type="jar" ext="jar" status="no" details="" size="9990" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-codec_2.12\jars\util-codec_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-codec_2.12/19.5.1/util-codec_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-cache_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="73">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3672" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-cache_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/19.5.1/util-cache_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-cache_2.12" type="jar" ext="jar" status="no" details="" size="28428" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-cache_2.12\jars\util-cache_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-cache_2.12/19.5.1/util-cache_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-init_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234138" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="72">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4909" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-init_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/19.5.1/finagle-init_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-init_2.12" type="jar" ext="jar" status="no" details="" size="1614" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-init_2.12\jars\finagle-init_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-init_2.12/19.5.1/finagle-init_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="finagle-toggle_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520234146" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/finagle" extra-info.apiURL="https://twitter.github.io/finagle/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="58">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="9420" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-toggle_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/19.5.1/finagle-toggle_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="finagle-toggle_2.12" type="jar" ext="jar" status="no" details="" size="115055" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\finagle-toggle_2.12\jars\finagle-toggle_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/finagle-toggle_2.12/19.5.1/finagle-toggle_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12">
+			<revision name="2.9.8" status="release" pubdate="20181216195309" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://wiki.fasterxml.com/JacksonModuleScala" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="68">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4118" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.12\ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.8/jackson-module-scala_2.12-2.9.8.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="jackson-module-scala_2.12" type="bundle" ext="jar" status="no" details="" size="320698" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-scala_2.12\bundles\jackson-module-scala_2.12-2.9.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.12/2.9.8/jackson-module-scala_2.12-2.9.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer">
+			<revision name="2.9.8" status="release" pubdate="20181215200651" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-modules-base" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="70">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="29994" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.8/jackson-module-paranamer-2.9.8.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<artifacts>
+					<artifact name="jackson-module-paranamer" type="bundle" ext="jar" status="no" details="" size="42880" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.module\jackson-module-paranamer\bundles\jackson-module-paranamer-2.9.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.9.8/jackson-module-paranamer-2.9.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.8" status="release" pubdate="20150826082928" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="71">
+				<license name="BSD" url="LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="4296" time="0" location="C:\Users\lucas\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.8" rev-constraint-default="2.8" rev-constraint-dynamic="2.8" callerrev="2.9.8"/>
+				<artifacts>
+					<artifact name="paranamer" type="bundle" ext="jar" status="no" details="" size="34654" time="0" location="C:\Users\lucas\.ivy2\cache\com.thoughtworks.paranamer\paranamer\bundles\paranamer-2.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.9.8" status="release" pubdate="20181215191249" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="69">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7945" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.9.8.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.pom"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.9.1"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="66894" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.9.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.8/jackson-annotations-2.9.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.0" status="release" pubdate="20170730005340" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7030" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.pom"/>
+				<evicted-by rev="2.9.8"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.0" rev-constraint-default="2.9.0" rev-constraint-dynamic="2.9.0" callerrev="2.9.9.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-logging_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225734" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="64">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3663" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-logging_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/19.5.1/util-logging_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-security_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-logging_2.12" type="jar" ext="jar" status="no" details="" size="217338" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-logging_2.12\jars\util-logging_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-logging_2.12/19.5.1/util-logging_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-stats_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="65">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3945" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-stats_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/19.5.1/util-stats_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-logging_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-jvm_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-stats_2.12" type="jar" ext="jar" status="no" details="" size="130224" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-stats_2.12\jars\util-stats_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-stats_2.12/19.5.1/util-stats_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-lint_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225511" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="66">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3362" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-lint_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/19.5.1/util-lint_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-lint_2.12" type="jar" ext="jar" status="no" details="" size="17275" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-lint_2.12\jars\util-lint_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-lint_2.12/19.5.1/util-lint_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-app_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225557" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="59">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3509" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-app_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-app_2.12/19.5.1/util-app_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-logging_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-jvm_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-app_2.12" type="jar" ext="jar" status="no" details="" size="130285" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-app_2.12\jars\util-app_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-app_2.12/19.5.1/util-app_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-registry_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225518" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="63">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3374" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-registry_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/19.5.1/util-registry_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="util-app_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-registry_2.12" type="jar" ext="jar" status="no" details="" size="31016" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-registry_2.12\jars\util-registry_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-registry_2.12/19.5.1/util-registry_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-core_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225530" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="60">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3946" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-core_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-core_2.12/19.5.1/util-core_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="util-app_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-cache_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-logging_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-codec_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-security_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-lint_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-registry_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-jvm_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-core_2.12" type="jar" ext="jar" status="no" details="" size="1296970" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-core_2.12\jars\util-core_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-core_2.12/19.5.1/util-core_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12">
+			<revision name="1.0.4" status="release" pubdate="20161028211045" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="62">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2819" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.pom"/>
+				<caller organisation="com.twitter" name="util-core_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.12" type="bundle" ext="jar" status="no" details="" size="204313" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.ben-manes.caffeine" name="caffeine">
+			<revision name="2.3.4" status="release" pubdate="20161030234031" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ben-manes/caffeine" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="67">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5533" time="0" location="C:\Users\lucas\.ivy2\cache\com.github.ben-manes.caffeine\caffeine\ivy-2.3.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.pom"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-cache_2.12" conf="compile, runtime" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="2.3.4" rev-constraint-default="2.3.4" rev-constraint-dynamic="2.3.4" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="caffeine" type="jar" ext="jar" status="no" details="" size="972707" time="0" location="C:\Users\lucas\.ivy2\cache\com.github.ben-manes.caffeine\caffeine\jars\caffeine-2.3.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.3.4/caffeine-2.3.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.twitter" name="util-function_2.12">
+			<revision name="19.5.1" status="release" pubdate="20190520225402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/twitter/util" extra-info.apiURL="https://twitter.github.io/util/docs/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="61">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3228" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-function_2.12\ivy-19.5.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/twitter/util-function_2.12/19.5.1/util-function_2.12-19.5.1.pom"/>
+				<caller organisation="com.twitter" name="util-core_2.12" conf="compile, runtime" rev="19.5.1" rev-constraint-default="19.5.1" rev-constraint-dynamic="19.5.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="util-function_2.12" type="jar" ext="jar" status="no" details="" size="2674" time="0" location="C:\Users\lucas\.ivy2\cache\com.twitter\util-function_2.12\jars\util-function_2.12-19.5.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/twitter/util-function_2.12/19.5.1/util-function_2.12-19.5.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-mqtt-scala_2.12">
+			<revision name="3.8.0" status="release" pubdate="20190716065356" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="28433" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-mqtt-scala_2.12\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-mqtt-scala_2.12/3.8.0/vertx-mqtt-scala_2.12-3.8.0.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vertx-mqtt-scala_2.12" type="jar" ext="jar" status="no" details="" size="109433" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-mqtt-scala_2.12\jars\vertx-mqtt-scala_2.12-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-mqtt-scala_2.12/3.8.0/vertx-mqtt-scala_2.12-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-mqtt">
+			<revision name="3.8.0" status="release" pubdate="20190716064021" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="53">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="29587" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-mqtt\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-mqtt/3.8.0/vertx-mqtt-3.8.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-mqtt-scala_2.12" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="vertx-mqtt" type="jar" ext="jar" status="no" details="" size="61617" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-mqtt\jars\vertx-mqtt-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-mqtt/3.8.0/vertx-mqtt-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-mqtt">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308074013" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="54">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17653" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-mqtt\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-mqtt/4.1.34.Final/netty-codec-mqtt-4.1.34.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-codec-mqtt" type="jar" ext="jar" status="no" details="" size="56258" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-mqtt\jars\netty-codec-mqtt-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-mqtt/4.1.34.Final/netty-codec-mqtt-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-kafka-client-scala_2.12">
+			<revision name="3.8.0" status="release" pubdate="20190716070141" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="2863" time="837" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client-scala_2.12\ivy-3.8.0.xml" searched="true" original-local-location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client-scala_2.12\ivy-3.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-kafka-client-scala_2.12/3.8.0/vertx-kafka-client-scala_2.12-3.8.0.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vertx-kafka-client-scala_2.12" type="jar" ext="jar" status="successful" details="" size="188478" time="1552" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client-scala_2.12\jars\vertx-kafka-client-scala_2.12-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-kafka-client-scala_2.12/3.8.0/vertx-kafka-client-scala_2.12-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-kafka-client">
+			<revision name="3.8.0" status="release" pubdate="20190716064021" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="successful" details="" size="4330" time="627" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client\ivy-3.8.0.xml" searched="true" original-local-location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client\ivy-3.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-kafka-client/3.8.0/vertx-kafka-client-3.8.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client-scala_2.12" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="vertx-kafka-client" type="jar" ext="jar" status="successful" details="" size="125406" time="1664" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-kafka-client\jars\vertx-kafka-client-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-kafka-client/3.8.0/vertx-kafka-client-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.16" status="release" pubdate="20100331012544" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="51">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3529" time="0" location="C:\Users\lucas\.ivy2\cache\log4j\log4j\ivy-1.2.16.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.21"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="481535" time="0" location="C:\Users\lucas\.ivy2\cache\log4j\log4j\bundles\log4j-1.2.16.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.2.17" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.2.16"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.21"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="1.2.16" rev-constraint-default="1.2.16" rev-constraint-dynamic="1.2.16" callerrev="3.8.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.21" status="release" pubdate="20160404153738" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="50">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5547" time="0" location="C:\Users\lucas\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.pom"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="9988" time="0" location="C:\Users\lucas\.ivy2\cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.7.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.21/slf4j-log4j12-1.7.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka_2.12">
+			<revision name="2.1.0" status="release" pubdate="20181119152607" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="14089" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.kafka\kafka_2.12\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.1.0/kafka_2.12-2.1.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="kafka_2.12" type="jar" ext="jar" status="no" details="" size="3944695" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.kafka\kafka_2.12\jars\kafka_2.12-2.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka_2.12/2.1.0/kafka_2.12-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.zookeeper" name="zookeeper">
+			<revision name="3.4.13" status="release" pubdate="20180630205208" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10708" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.zookeeper\zookeeper\ivy-3.4.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="3.4.13" rev-constraint-default="3.4.13" rev-constraint-dynamic="3.4.13" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="zookeeper" type="jar" ext="jar" status="no" details="" size="906708" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.zookeeper\zookeeper\jars\zookeeper-3.4.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/zookeeper/zookeeper/3.4.13/zookeeper-3.4.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.yetus" name="audience-annotations">
+			<revision name="0.5.0" status="release" pubdate="20170712174838" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="48">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4857" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.yetus\audience-annotations\ivy-0.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.pom"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="0.5.0" rev-constraint-default="0.5.0" rev-constraint-dynamic="0.5.0" callerrev="3.4.13"/>
+				<artifacts>
+					<artifact name="audience-annotations" type="jar" ext="jar" status="no" details="" size="20437" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.yetus\audience-annotations\jars\audience-annotations-0.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/yetus/audience-annotations/0.5.0/audience-annotations-0.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.101tec" name="zkclient">
+			<revision name="0.10" status="release" pubdate="20161108133530" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/sgroschupf/zkclient" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3885" time="0" location="C:\Users\lucas\.ivy2\cache\com.101tec\zkclient\ivy-0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.10/zkclient-0.10.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="zkclient" type="jar" ext="jar" status="no" details="" size="74798" time="0" location="C:\Users\lucas\.ivy2\cache\com.101tec\zkclient\jars\zkclient-0.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/101tec/zkclient/0.10/zkclient-0.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.scala-logging" name="scala-logging_2.12">
+			<revision name="3.9.0" status="release" pubdate="20180411065603" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/scala-logging" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2.0 License" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3393" time="0" location="C:\Users\lucas\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\ivy-3.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="3.9.0" rev-constraint-default="3.9.0" rev-constraint-dynamic="3.9.0" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="scala-logging_2.12" type="bundle" ext="jar" status="no" details="" size="54709" time="0" location="C:\Users\lucas\.ivy2\cache\com.typesafe.scala-logging\scala-logging_2.12\bundles\scala-logging_2.12-3.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_2.12/3.9.0/scala-logging_2.12-3.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.yammer.metrics" name="metrics-core">
+			<revision name="2.2.0" status="release" pubdate="20121126171109" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4350" time="0" location="C:\Users\lucas\.ivy2\cache\com.yammer.metrics\metrics-core\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="metrics-core" type="jar" ext="jar" status="no" details="" size="82123" time="0" location="C:\Users\lucas\.ivy2\cache\com.yammer.metrics\metrics-core\jars\metrics-core-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/yammer/metrics/metrics-core/2.2.0/metrics-core-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sf.jopt-simple" name="jopt-simple">
+			<revision name="5.0.4" status="release" pubdate="20170713121239" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jopt-simple.github.io/jopt-simple" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="The MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4306" time="0" location="C:\Users\lucas\.ivy2\cache\net.sf.jopt-simple\jopt-simple\ivy-5.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="5.0.4" rev-constraint-default="5.0.4" rev-constraint-dynamic="5.0.4" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="jopt-simple" type="jar" ext="jar" status="no" details="" size="78146" time="0" location="C:\Users\lucas\.ivy2\cache\net.sf.jopt-simple\jopt-simple\jars\jopt-simple-5.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.kafka" name="kafka-clients">
+			<revision name="2.1.0" status="release" pubdate="20181119152657" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://kafka.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3739" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.kafka\kafka-clients\ivy-2.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="2.1.0"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="2.1.0" rev-constraint-default="2.1.0" rev-constraint-dynamic="2.1.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="kafka-clients" type="jar" ext="jar" status="no" details="" size="1889063" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.kafka\kafka-clients\jars\kafka-clients-2.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.1.0/kafka-clients-2.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.1.7.2" status="release" pubdate="20180521151930" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/xerial/snappy-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3986" time="0" location="C:\Users\lucas\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.1.7.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.2/snappy-java-1.1.7.2.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka-clients" conf="compile, runtime" rev="1.1.7.2" rev-constraint-default="1.1.7.2" rev-constraint-dynamic="1.1.7.2" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="snappy-java" type="bundle" ext="jar" status="no" details="" size="2018686" time="0" location="C:\Users\lucas\.ivy2\cache\org.xerial.snappy\snappy-java\bundles\snappy-java-1.1.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.2/snappy-java-1.1.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.lz4" name="lz4-java">
+			<revision name="1.5.0" status="release" pubdate="20180925142742" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lz4/lz4-java" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2769" time="0" location="C:\Users\lucas\.ivy2\cache\org.lz4\lz4-java\ivy-1.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka-clients" conf="compile, runtime" rev="1.5.0" rev-constraint-default="1.5.0" rev-constraint-dynamic="1.5.0" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="lz4-java" type="jar" ext="jar" status="no" details="" size="511547" time="0" location="C:\Users\lucas\.ivy2\cache\org.lz4\lz4-java\jars\lz4-java-1.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/lz4/lz4-java/1.5.0/lz4-java-1.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.luben" name="zstd-jni">
+			<revision name="1.3.5-4" status="release" pubdate="20180917205304" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/luben/zstd-jni" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="BSD 2-Clause License" url="https://opensource.org/licenses/BSD-2-Clause"/>
+				<metadata-artifact status="no" details="" size="2908" time="0" location="C:\Users\lucas\.ivy2\cache\com.github.luben\zstd-jni\ivy-1.3.5-4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.3.5-4/zstd-jni-1.3.5-4.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka-clients" conf="compile, runtime" rev="1.3.5-4" rev-constraint-default="1.3.5-4" rev-constraint-dynamic="1.3.5-4" callerrev="2.1.0"/>
+				<artifacts>
+					<artifact name="zstd-jni" type="jar" ext="jar" status="no" details="" size="3714217" time="0" location="C:\Users\lucas\.ivy2\cache\com.github.luben\zstd-jni\jars\zstd-jni-1.3.5-4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.3.5-4/zstd-jni-1.3.5-4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-hazelcast">
+			<revision name="3.8.0" status="release" pubdate="20190716063802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="30213" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-hazelcast\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-hazelcast/3.8.0/vertx-hazelcast-3.8.0.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="vertx-hazelcast" type="jar" ext="jar" status="no" details="" size="45871" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-hazelcast\jars\vertx-hazelcast-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-hazelcast/3.8.0/vertx-hazelcast-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.hazelcast" name="hazelcast">
+			<revision name="3.10.5" status="release" pubdate="20180913111613" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="17368" time="0" location="C:\Users\lucas\.ivy2\cache\com.hazelcast\hazelcast\ivy-3.10.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/hazelcast/hazelcast/3.10.5/hazelcast-3.10.5.pom"/>
+				<caller organisation="io.vertx" name="vertx-hazelcast" conf="default, compile, runtime, master" rev="3.10.5" rev-constraint-default="3.10.5" rev-constraint-dynamic="3.10.5" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="hazelcast" type="jar" ext="jar" status="no" details="" size="9699444" time="0" location="C:\Users\lucas\.ivy2\cache\com.hazelcast\hazelcast\jars\hazelcast-3.10.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/hazelcast/hazelcast/3.10.5/hazelcast-3.10.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-lang-scala_2.12">
+			<revision name="3.8.0" status="release" pubdate="20190716065335" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="28658" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-lang-scala_2.12\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-lang-scala_2.12/3.8.0/vertx-lang-scala_2.12-3.8.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-mqtt-scala_2.12" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="0.1"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client-scala_2.12" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="vertx-lang-scala_2.12" type="jar" ext="jar" status="no" details="" size="1070893" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-lang-scala_2.12\jars\vertx-lang-scala_2.12-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-lang-scala_2.12/3.8.0/vertx-lang-scala_2.12-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.vertx" name="vertx-core">
+			<revision name="3.8.0" status="release" pubdate="20190716063548" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="Eclipse Public License - v 2.0" url="http://www.eclipse.org/legal/epl-v20.html"/>
+				<metadata-artifact status="no" details="" size="30375" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-core\ivy-3.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/vertx/vertx-core/3.8.0/vertx-core-3.8.0.pom"/>
+				<caller organisation="io.vertx" name="vertx-hazelcast" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<caller organisation="io.vertx" name="vertx-mqtt" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="3.8.0" rev-constraint-default="3.8.0" rev-constraint-dynamic="3.8.0" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="vertx-core" type="jar" ext="jar" status="no" details="" size="1263528" time="0" location="C:\Users\lucas\.ivy2\cache\io.vertx\vertx-core\jars\vertx-core-3.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/vertx/vertx-core/3.8.0/vertx-core-3.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.9.9.1" status="release" pubdate="20190702213403" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/FasterXML/jackson" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23831" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.9.9.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.9.1" rev-constraint-default="2.9.9.1" rev-constraint-dynamic="2.9.9.1" callerrev="3.8.0"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="2.9.7" rev-constraint-default="2.9.7" rev-constraint-dynamic="2.9.7" callerrev="2.1.0"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="1348229" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.9.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.9.9.1/jackson-databind-2.9.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.9.1"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-paranamer" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.9.7" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.9.1"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="2.9.7" rev-constraint-default="2.9.7" rev-constraint-dynamic="2.9.7" callerrev="2.1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.9.9" status="release" pubdate="20190515235911" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/FasterXML/jackson-core" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="23044" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.9.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.pom"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="3.8.0"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.fasterxml.jackson.core" name="jackson-databind" conf="compile, runtime" rev="2.9.9" rev-constraint-default="2.9.9" rev-constraint-dynamic="2.9.9" callerrev="2.9.9.1"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="325632" time="0" location="C:\Users\lucas\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.9.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.9/jackson-core-2.9.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.9.8" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="2.9.9"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="2.9.8"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.9.8" rev-constraint-default="2.9.8" rev-constraint-dynamic="2.9.8" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver-dns">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308074519" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18223" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-resolver-dns\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver-dns/4.1.34.Final/netty-resolver-dns-4.1.34.Final.pom"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-resolver-dns" type="jar" ext="jar" status="no" details="" size="132195" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-resolver-dns\jars\netty-resolver-dns-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver-dns/4.1.34.Final/netty-resolver-dns-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-dns">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308073228" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17674" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-dns\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-dns/4.1.34.Final/netty-codec-dns-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-dns" type="jar" ext="jar" status="no" details="" size="54811" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-dns\jars\netty-codec-dns-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-dns/4.1.34.Final/netty-codec-dns-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http2">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308073901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18190" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-http2\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-codec-http2" type="jar" ext="jar" status="no" details="" size="406530" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-http2\jars\netty-codec-http2-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http2/4.1.34.Final/netty-codec-http2-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler-proxy">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308074342" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18220" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-handler-proxy\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="netty-handler-proxy" type="jar" ext="jar" status="no" details="" size="22085" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-handler-proxy\jars\netty-handler-proxy-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.34.Final/netty-handler-proxy-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-http">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308073730" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17917" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-http\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-http" type="jar" ext="jar" status="no" details="" size="563930" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-http\jars\netty-codec-http-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.34.Final/netty-codec-http-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec-socks">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308074157" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17535" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-socks\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.34.Final/netty-codec-socks-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-codec-socks" type="jar" ext="jar" status="no" details="" size="119384" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec-socks\jars\netty-codec-socks-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.34.Final/netty-codec-socks-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-handler">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308073546" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18727" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-handler\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.pom"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-handler" type="jar" ext="jar" status="no" details="" size="426039" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-handler\jars\netty-handler-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-handler/4.1.34.Final/netty-handler-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-codec">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308073105" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="18829" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-codec" type="jar" ext="jar" status="no" details="" size="316916" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-codec\jars\netty-codec-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-codec/4.1.34.Final/netty-codec-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-transport">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308072901" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17503" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-unix-common" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="io.netty" name="netty-codec-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-codec" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-transport" type="jar" ext="jar" status="no" details="" size="465006" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-transport\jars\netty-transport-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-transport/4.1.34.Final/netty-transport-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="19.5.1"/>
+				<caller organisation="io.netty" name="netty-transport-native-unix-common" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-resolver">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308072631" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17204" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-resolver\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.34.Final/netty-resolver-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-resolver" type="jar" ext="jar" status="no" details="" size="32800" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-resolver\jars\netty-resolver-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-resolver/4.1.34.Final/netty-resolver-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-buffer">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308072542" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="17198" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-buffer\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.34.Final/netty-buffer-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<artifacts>
+					<artifact name="netty-buffer" type="jar" ext="jar" status="no" details="" size="278462" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-buffer\jars\netty-buffer-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-buffer/4.1.34.Final/netty-buffer-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty-common">
+			<revision name="4.1.34.Final" status="release" pubdate="20190308072408" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="19748" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-common\ivy-4.1.34.Final.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.34.Final/netty-common-4.1.34.Final.pom"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-socks" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler-proxy" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-handler" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-unix-common" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-resolver-dns" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-core" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<caller organisation="io.netty" name="netty-codec-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-resolver" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-buffer" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-codec-http2" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="4.1.34.Final"/>
+				<caller organisation="io.vertx" name="vertx-mqtt" conf="compile, runtime" rev="4.1.34.Final" rev-constraint-default="4.1.34.Final" rev-constraint-dynamic="4.1.34.Final" callerrev="3.8.0"/>
+				<artifacts>
+					<artifact name="netty-common" type="jar" ext="jar" status="no" details="" size="589281" time="0" location="C:\Users\lucas\.ivy2\cache\io.netty\netty-common\jars\netty-common-4.1.34.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty-common/4.1.34.Final/netty-common-4.1.34.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="4.1.31.Final" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="4.1.34.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-epoll" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<caller organisation="io.netty" name="netty-transport-native-unix-common" conf="compile, runtime" rev="4.1.31.Final" rev-constraint-default="4.1.31.Final" rev-constraint-dynamic="4.1.31.Final" callerrev="4.1.31.Final"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.21" status="release" pubdate="20160404153640" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="49">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5250" time="0" location="C:\Users\lucas\.ivy2\cache\org.slf4j\slf4j-api\ivy-1.7.21.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.pom"/>
+				<caller organisation="com.101tec" name="zkclient" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.10"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.7.21"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.9.0"/>
+				<caller organisation="com.yammer.metrics" name="metrics-core" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<caller organisation="org.apache.kafka" name="kafka-clients" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.1.0"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="3.8.0"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.4.13"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="41071" time="0" location="C:\Users\lucas\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.21.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.6.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="com.101tec" name="zkclient" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="com.yammer.metrics" name="metrics-core" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.7.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.7.21"/>
+				<caller organisation="com.101tec" name="zkclient" conf="compile, runtime" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="0.10"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="1.7.21"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.9.0"/>
+				<caller organisation="com.yammer.metrics" name="metrics-core" conf="compile, runtime" rev="1.7.2" rev-constraint-default="1.7.2" rev-constraint-dynamic="1.7.2" callerrev="2.2.0"/>
+				<caller organisation="org.apache.kafka" name="kafka-clients" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="2.1.0"/>
+				<caller organisation="org.apache.zookeeper" name="zookeeper" conf="compile, runtime" rev="1.7.25" rev-constraint-default="1.7.25" rev-constraint-dynamic="1.7.25" callerrev="3.4.13"/>
+				<caller organisation="io.vertx" name="vertx-kafka-client" conf="compile, runtime" rev="1.7.21" rev-constraint-default="1.7.21" rev-constraint-dynamic="1.7.21" callerrev="3.8.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-collection-compat_2.12">
+			<revision name="2.0.0" status="release" pubdate="20190517151904" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2853" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang.modules\scala-collection-compat_2.12\ivy-2.0.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="2.0.0" rev-constraint-default="2.0.0" rev-constraint-dynamic="2.0.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scala-collection-compat_2.12" type="bundle" ext="jar" status="no" details="" size="101292" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang.modules\scala-collection-compat_2.12\bundles\scala-collection-compat_2.12-2.0.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.0.0/scala-collection-compat_2.12-2.0.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-lang3">
+			<revision name="3.8.1" status="release" pubdate="20180919122429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-lang/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="16">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="15052" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.commons\commons-lang3\ivy-3.8.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.8.1" rev-constraint-default="3.8.1" rev-constraint-dynamic="3.8.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="commons-lang3" type="jar" ext="jar" status="no" details="" size="501879" time="0" location="C:\Users\lucas\.ivy2\cache\org.apache.commons\commons-lang3\jars\commons-lang3-3.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="27.1-jre" status="release" pubdate="20190308132054" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="8">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7927" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\guava\ivy-27.1-jre.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="27.1-jre" rev-constraint-default="27.1-jre" rev-constraint-dynamic="27.1-jre" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2746671" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\guava\bundles\guava-27.1-jre.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/27.1-jre/guava-27.1-jre.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.mojo" name="animal-sniffer-annotations">
+			<revision name="1.17" status="release" pubdate="20180621222035" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5185" time="0" location="C:\Users\lucas\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\ivy-1.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="1.17" rev-constraint-default="1.17" rev-constraint-dynamic="1.17" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="animal-sniffer-annotations" type="jar" ext="jar" status="no" details="" size="3448" time="0" location="C:\Users\lucas\.ivy2\cache\org.codehaus.mojo\animal-sniffer-annotations\jars\animal-sniffer-annotations-1.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.17/animal-sniffer-annotations-1.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.j2objc" name="j2objc-annotations">
+			<revision name="1.1" status="release" pubdate="20170118210659" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/google/j2objc/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3207" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.j2objc\j2objc-annotations\ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="j2objc-annotations" type="jar" ext="jar" status="no" details="" size="8782" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.j2objc\j2objc-annotations\jars\j2objc-annotations-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.errorprone" name="error_prone_annotations">
+			<revision name="2.2.0" status="release" pubdate="20180108212952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="Apache 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4144" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.errorprone\error_prone_annotations\ivy-2.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="2.2.0" rev-constraint-default="2.2.0" rev-constraint-dynamic="2.2.0" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="error_prone_annotations" type="jar" ext="jar" status="no" details="" size="13694" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.errorprone\error_prone_annotations\jars\error_prone_annotations-2.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.2.0/error_prone_annotations-2.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.checkerframework" name="checker-qual">
+			<revision name="2.5.2" status="release" pubdate="20180601155723" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://checkerframework.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="The MIT License" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2696" time="0" location="C:\Users\lucas\.ivy2\cache\org.checkerframework\checker-qual\ivy-2.5.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="2.5.2" rev-constraint-default="2.5.2" rev-constraint-dynamic="2.5.2" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="checker-qual" type="jar" ext="jar" status="no" details="" size="193322" time="0" location="C:\Users\lucas\.ivy2\cache\org.checkerframework\checker-qual\jars\checker-qual-2.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/checkerframework/checker-qual/2.5.2/checker-qual-2.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.code.findbugs" name="jsr305">
+			<revision name="3.0.2" status="release" pubdate="20170331015548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3301" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.code.findbugs\jsr305\ivy-3.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="3.0.2" rev-constraint-default="3.0.2" rev-constraint-dynamic="3.0.2" callerrev="27.1-jre"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-cache_2.12" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="jsr305" type="jar" ext="jar" status="no" details="" size="19936" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.code.findbugs\jsr305\jars\jsr305-3.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.0.2"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-cache_2.12" conf="compile, runtime" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="2.0.1" rev-constraint-default="2.0.1" rev-constraint-dynamic="2.0.1" callerrev="19.5.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="listenablefuture">
+			<revision name="9999.0-empty-to-avoid-conflict-with-guava" status="release" pubdate="20180911164043" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7012" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\listenablefuture\ivy-9999.0-empty-to-avoid-conflict-with-guava.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-default="9999.0-empty-to-avoid-conflict-with-guava" rev-constraint-dynamic="9999.0-empty-to-avoid-conflict-with-guava" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="listenablefuture" type="jar" ext="jar" status="no" details="" size="2199" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\listenablefuture\jars\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="failureaccess">
+			<revision name="1.0.1" status="release" pubdate="20181119155727" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6411" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\failureaccess\ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.pom"/>
+				<caller organisation="com.google.guava" name="guava" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="27.1-jre"/>
+				<artifacts>
+					<artifact name="failureaccess" type="bundle" ext="jar" status="no" details="" size="4617" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.guava\failureaccess\bundles\failureaccess-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.9" status="release" pubdate="20190805112743" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.9/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2866" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang\scala-reflect\ivy-2.12.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.9/scala-reflect-2.12.9.pom"/>
+				<caller organisation="org.apache.kafka" name="kafka_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="2.1.0"/>
+				<caller organisation="com.typesafe.scala-logging" name="scala-logging_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="3.9.0"/>
+				<caller organisation="com.twitter" name="util-core_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="3.8.0"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="3.0.5"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3675584" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.9/scala-reflect-2.12.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.5" status="release" pubdate="20180129112214" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="6">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3002" time="0" location="C:\Users\lucas\.ivy2\cache\org.scalactic\scalactic_2.12\ivy-3.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="3.0.5" rev-constraint-default="3.0.5" rev-constraint-dynamic="3.0.5" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="708098" time="0" location="C:\Users\lucas\.ivy2\cache\org.scalactic\scalactic_2.12\bundles\scalactic_2.12-3.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12">
+			<revision name="0.9.0" status="release" pubdate="20190622022456" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalapb/ScalaPB" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3783" time="0" location="C:\Users\lucas\.ivy2\cache\com.thesamet.scalapb\scalapb-runtime_2.12\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.pom"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalapb-runtime_2.12" type="jar" ext="jar" status="no" details="" size="2087820" time="0" location="C:\Users\lucas\.ivy2\cache\com.thesamet.scalapb\scalapb-runtime_2.12\jars\scalapb-runtime_2.12-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.12/0.9.0/scalapb-runtime_2.12-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="3.7.1" status="release" pubdate="20190402174355" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="3-Clause BSD License" url="https://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="5561" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-3.7.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="default, compile, runtime, master" rev="3.7.1" rev-constraint-default="3.7.1" rev-constraint-dynamic="3.7.1" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="1424223" time="0" location="C:\Users\lucas\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-3.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.1/protobuf-java-3.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse_2.12">
+			<revision name="2.1.3" status="release" pubdate="20190608060528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/fastparse" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="MIT" url="https://spdx.org/licenses/MIT.html"/>
+				<metadata-artifact status="no" details="" size="2818" time="0" location="C:\Users\lucas\.ivy2\cache\com.lihaoyi\fastparse_2.12\ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="default, compile, runtime, master" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="fastparse_2.12" type="jar" ext="jar" status="no" details="" size="304706" time="0" location="C:\Users\lucas\.ivy2\cache\com.lihaoyi\fastparse_2.12\jars\fastparse_2.12-2.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/2.1.3/fastparse_2.12-2.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.12">
+			<revision name="0.1.7" status="release" pubdate="20190607134707" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT" url="http://www.opensource.org/licenses/mit-license.html"/>
+				<metadata-artifact status="no" details="" size="2997" time="0" location="C:\Users\lucas\.ivy2\cache\com.lihaoyi\sourcecode_2.12\ivy-0.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.12" conf="compile, runtime" rev="0.1.7" rev-constraint-default="0.1.7" rev-constraint-dynamic="0.1.7" callerrev="2.1.3"/>
+				<artifacts>
+					<artifact name="sourcecode_2.12" type="bundle" ext="jar" status="no" details="" size="110075" time="0" location="C:\Users\lucas\.ivy2\cache\com.lihaoyi\sourcecode_2.12\bundles\sourcecode_2.12-0.1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.7/sourcecode_2.12-0.1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thesamet.scalapb" name="lenses_2.12">
+			<revision name="0.9.0" status="release" pubdate="20190622022359" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scalapb/ScalaPB" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2801" time="0" location="C:\Users\lucas\.ivy2\cache\com.thesamet.scalapb\lenses_2.12\ivy-0.9.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.pom"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="default, compile, runtime, master" rev="0.9.0" rev-constraint-default="0.9.0" rev-constraint-dynamic="0.9.0" callerrev="0.9.0"/>
+				<artifacts>
+					<artifact name="lenses_2.12" type="jar" ext="jar" status="no" details="" size="36380" time="0" location="C:\Users\lucas\.ivy2\cache\com.thesamet.scalapb\lenses_2.12\jars\lenses_2.12-0.9.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.12/0.9.0/lenses_2.12-0.9.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.9" status="release" pubdate="20190805112858" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-lang.org/" extra-info.apiURL="https://www.scala-lang.org/api/2.12.9/" downloaded="false" searched="false" default="false" conf="default, master(*), compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2691" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang\scala-library\ivy-2.12.9.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.9/scala-library-2.12.9.pom"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="2.12.9"/>
+				<caller organisation="com.fasterxml.jackson.module" name="jackson-module-scala_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="2.9.8"/>
+				<caller organisation="default" name="io-devicer_2.12" conf="compile" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="0.1"/>
+				<caller organisation="com.twitter" name="finagle-core_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-hashing_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http2_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-base-http_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-init_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-tunable_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="io.vertx" name="vertx-lang-scala_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="3.8.0"/>
+				<caller organisation="com.twitter" name="finagle-netty4-http_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="0.1.7"/>
+				<caller organisation="com.twitter" name="util-app_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.thesamet.scalapb" name="scalapb-runtime_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="0.9.0"/>
+				<caller organisation="com.twitter" name="util-core_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-cache_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-http_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-logging_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.thesamet.scalapb" name="lenses_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="0.9.0"/>
+				<caller organisation="com.twitter" name="finagle-toggle_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-codec_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-security_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="1.0.4"/>
+				<caller organisation="com.twitter" name="util-stats_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="finagle-netty4_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="org.scala-lang.modules" name="scala-collection-compat_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="2.0.0"/>
+				<caller organisation="com.twitter" name="util-function_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="3.0.5"/>
+				<caller organisation="com.twitter" name="util-lint_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-registry_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<caller organisation="com.twitter" name="util-jvm_2.12" conf="compile, runtime" rev="2.12.9" rev-constraint-default="2.12.9" rev-constraint-dynamic="2.12.9" callerrev="19.5.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5275144" time="0" location="C:\Users\lucas\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.9/scala-library-2.12.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
